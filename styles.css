@@ -52,7 +52,7 @@ figure {
     padding: 0;
 }
 
-main {
+#text {
     width: 50%;
     padding: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -162,7 +162,7 @@ main {
         margin-bottom: -20px;
     }
 
-    main {
+    #text {
         margin-top: 0;
         margin-bottom: 0;
         padding-top: 0;
