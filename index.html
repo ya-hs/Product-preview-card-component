@@ -7,6 +7,8 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link rel="stylesheet" href="styles.css" />
 
   <title>Frontend Mentor | Product preview card component</title>
@@ -30,19 +32,22 @@
       <img id="product-img" src="/images/image-product-desktop.jpg" alt="bottle of perfume" />
     </figure>
     <main>
-      <p>Perfume</p>
+      <p id="product-type">Perfume</p>
       <header>
-        <h1>Gabrielle Essence Eau De Parfum</h1>
+        <h1 id="product-name">Gabrielle Essence Eau De Parfum</h1>
       </header>
-      <p>
+      <p id="product-desc">
         A floral, solar and voluptuous interpretation composed by Olivier Polge,
         Perfumer-Creator for the House of CHANEL.
       </p>
-      <section id="prices">
+      <section id="product-prices">
         <span id="new-price">$149.99</span>
         <span id="old-price">$169.99</span>
       </section>
-      <button id="btn-cart">Add to Cart</button>
+      <button id="btn-cart">
+        <img src="/images/icon-cart.svg" alt="add to cart icon" id="cart-icon" />
+        Add to Cart
+      </button>
     </main>
   </div>
   <div class="attribution">
