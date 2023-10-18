@@ -149,7 +149,6 @@ figure {
     }
 
     #product-img {
-        content: url(/images/image-product-mobile.jpg);
         width: 100%;
 
         border-radius: 0;
